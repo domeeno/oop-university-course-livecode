@@ -4,8 +4,8 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 
 public class Document {
-  private ArrayList<String> authors;
-  private LocalDate date;
+  private final ArrayList<String> authors;
+  private final LocalDate date;
 
   public Document(ArrayList<String> authors, LocalDate date) {
     this.authors = authors;
@@ -16,9 +16,9 @@ public class Document {
     return authors;
   }
 
-  public void addAuthor(String name){
+  public void addAuthor(String name) {
     this.authors.add(name);
-  };
+  }
 
 
   public LocalDate getDate() {

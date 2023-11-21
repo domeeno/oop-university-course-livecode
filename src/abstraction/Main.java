@@ -19,6 +19,6 @@ public class Main {
 
     Dog dog1 = new Dog();
     Animal dog = new Dog();
-    
+
   }
 }

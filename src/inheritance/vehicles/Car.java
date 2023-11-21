@@ -8,5 +8,6 @@ public class Car extends Vehicle {
     super(manufacturer, color, yearOfManufacture, model);
   }
 
-  public void carDetails() { }
+  public void carDetails() {
+  }
 }

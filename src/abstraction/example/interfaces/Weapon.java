@@ -1,7 +1,7 @@
 package abstraction.example.interfaces;
 
 public abstract class Weapon {
-  private int hitChance;
+  private final int hitChance;
 
   public Weapon(int hitChance) {
     this.hitChance = hitChance;

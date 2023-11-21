@@ -1,6 +1,5 @@
 package abstraction.impls;
 
-import abstraction.abs.Canine;
 import abstraction.abs.Companie;
 import abstraction.abs.Feline;
 import abstraction.abs.Petable;

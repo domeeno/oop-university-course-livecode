@@ -17,14 +17,12 @@ public class Email extends Document {
     return subject;
   }
 
-  public void addTo(String name) {
-    this.to.add(name);
-  }
-
-  ;
-
   public void setSubject(String subject) {
     this.subject = subject;
+  }
+
+  public void addTo(String name) {
+    this.to.add(name);
   }
 
   public ArrayList<String> getTo() {

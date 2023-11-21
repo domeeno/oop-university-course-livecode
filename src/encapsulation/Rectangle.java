@@ -33,6 +33,7 @@ public class Rectangle {
   public void setArea(int area) {
     this.area = area;
   }
+
   public Point2D getOrigin() {
     return origin;
   }

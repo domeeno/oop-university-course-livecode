@@ -18,13 +18,12 @@ public class Book extends Document {
     return title;
   }
 
-
-  public void addReference(String name){
-    this.references.add(name);
-  };
-
   public void setTitle(String title) {
     this.title = title;
+  }
+
+  public void addReference(String name) {
+    this.references.add(name);
   }
 
   public ArrayList<String> getReferences() {

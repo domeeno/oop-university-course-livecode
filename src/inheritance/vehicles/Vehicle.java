@@ -2,10 +2,10 @@ package inheritance.vehicles;
 
 public class Vehicle {
 
-  private String manufacturer;
-  private String color;
-  private int yearOfManufacture;
-  private String model;
+  private final String manufacturer;
+  private final String color;
+  private final int yearOfManufacture;
+  private final String model;
 
   public Vehicle(String manufacturer, String color, int yearOfManufacture, String model) {
     this.manufacturer = manufacturer;

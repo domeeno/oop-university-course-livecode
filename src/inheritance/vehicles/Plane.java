@@ -1,7 +1,7 @@
 package inheritance.vehicles;
 
 public class Plane extends Vehicle {
-  private int numberOfEngines;
+  private final int numberOfEngines;
 
   public Plane(String manufacturer, String color, int yearOfManufacture, String model, int numberOfEngines) {
     super(manufacturer, color, yearOfManufacture, model);

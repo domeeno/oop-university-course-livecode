@@ -5,7 +5,7 @@ import abstraction.abs.Animal;
 public class Rhino extends Animal {
   @Override
   public void makeNoise() {
-    System.out.printf("noot noot");
+    System.out.print("noot noot");
   }
 
   @Override
